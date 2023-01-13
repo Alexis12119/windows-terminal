@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -22,7 +24,8 @@
             "keys": "ctrl+v"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -39,23 +42,27 @@
     "initialPosition": "410,0",
     "initialRows": 32,
     "launchMode": "default",
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "altGrAliasing": false,
-            "colorScheme": "Tokyo Night",
+            "colorScheme": "Dull",
             "cursorShape": "filledBox",
             "elevate": false,
-            "font": {
+            "font": 
+            {
                 "face": "JetBrainsMono NF",
                 "size": 11,
                 "weight": "normal"
             },
             "intenseTextStyle": "none",
-            "opacity": 11,
+            "opacity": 81,
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
-        "list": [
+        "list": 
+        [
             {
                 "colorScheme": "Dull",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -70,7 +77,8 @@
                 "colorScheme": "Tokyo Night",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": false,
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMono NF",
                     "weight": "normal"
                 },
@@ -91,7 +99,8 @@
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
-                "font": {
+                "font": 
+                {
                     "face": "JetBrainsMono NF",
                     "size": 11,
                     "weight": "normal"
@@ -117,7 +126,8 @@
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
