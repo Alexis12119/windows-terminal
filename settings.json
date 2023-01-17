@@ -53,13 +53,14 @@
             "font": 
             {
                 "face": "JetBrainsMono NF",
-                "size": 11,
+                "size": 11.0,
                 "weight": "normal"
             },
             "intenseTextStyle": "none",
             "opacity": 81,
             "scrollbarState": "hidden",
-            "useAcrylic": true
+            "useAcrylic": true,
+            "useAtlasEngine": false
         },
         "list": 
         [
@@ -74,9 +75,10 @@
             {
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
-                "colorScheme": "Tokyo Night",
+                "colorScheme": "Dull",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "elevate": false,
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
                     "face": "JetBrainsMono NF",
@@ -86,7 +88,7 @@
                 "hidden": false,
                 "intenseTextStyle": "none",
                 "name": "Command Prompt",
-                "opacity": 80,
+                "opacity": 81,
                 "padding": "8",
                 "scrollbarState": "hidden",
                 "suppressApplicationTitle": true,
@@ -102,7 +104,7 @@
                 "font": 
                 {
                     "face": "JetBrainsMono NF",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "normal"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -432,6 +434,7 @@
     "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
+    "themes": [],
     "windowingBehavior": "useAnyExisting",
     "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
 }
