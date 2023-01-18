@@ -53,14 +53,13 @@
             "font": 
             {
                 "face": "JetBrainsMono NF",
-                "size": 11.0,
+                "size": 11,
                 "weight": "normal"
             },
             "intenseTextStyle": "none",
             "opacity": 81,
             "scrollbarState": "hidden",
-            "useAcrylic": true,
-            "useAtlasEngine": false
+            "useAcrylic": true
         },
         "list": 
         [
@@ -103,8 +102,8 @@
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "JetBrainsMono NF",
-                    "size": 11.0,
+                    "face": "JetBrainsMonoNL NF",
+                    "size": 11,
                     "weight": "normal"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -200,7 +199,7 @@
             "yellow": "#F1FA8C"
         },
         {
-            "background": "#16161E",
+            "background": "#0E131B",
             "black": "#262626",
             "blue": "#87AFD7",
             "brightBlack": "#9E9E9E",
@@ -434,7 +433,6 @@
     "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
-    "themes": [],
     "windowingBehavior": "useAnyExisting",
     "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
 }
