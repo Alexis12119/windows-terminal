@@ -47,7 +47,7 @@
         "defaults": 
         {
             "altGrAliasing": false,
-            "colorScheme": "Dull",
+            "colorScheme": "Nightly",
             "cursorShape": "filledBox",
             "elevate": false,
             "font": 
@@ -64,7 +64,7 @@
         "list": 
         [
             {
-                "colorScheme": "Dull",
+                "colorScheme": "Nightly",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -74,7 +74,7 @@
             {
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
-                "colorScheme": "Dull",
+                "colorScheme": "Nightly",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
@@ -96,13 +96,13 @@
             },
             {
                 "backgroundImage": null,
-                "colorScheme": "Dull",
+                "colorScheme": "Nightly",
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "JetBrainsMonoNL NF",
+                    "face": "JetBrainsMono NF",
                     "size": 11,
                     "weight": "normal"
                 },
@@ -118,7 +118,7 @@
                 "useAcrylic": true
             },
             {
-                "colorScheme": "Dull",
+                "colorScheme": "Nightly",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
@@ -214,7 +214,7 @@
             "cyan": "#98BE65",
             "foreground": "#D7D7D7",
             "green": "#A9B1D6",
-            "name": "Dull",
+            "name": "Nightly",
             "purple": "#B16286",
             "red": "#D75F5F",
             "selectionBackground": "#767676",
