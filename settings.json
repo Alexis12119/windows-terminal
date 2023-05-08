@@ -20,10 +20,6 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": "unbound",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -31,9 +27,13 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+v"
         }
     ],
-    "alwaysShowTabs": false,
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -70,14 +70,14 @@
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 81,
-                "padding": "0"
+                "padding": "8"
             },
             {
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "colorScheme": "Nightly",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "elevate": true,
+                "elevate": false,
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
@@ -89,7 +89,7 @@
                 "intenseTextStyle": "none",
                 "name": "Command Prompt",
                 "opacity": 81,
-                "padding": "0",
+                "padding": "8",
                 "scrollbarState": "hidden",
                 "suppressApplicationTitle": true,
                 "tabTitle": "cmd",
@@ -111,9 +111,9 @@
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "intenseTextStyle": "none",
+                "intenseTextStyle": "bright",
                 "name": "PowerShell",
-                "opacity": 100,
+                "opacity": 74,
                 "padding": "8",
                 "scrollbarState": "hidden",
                 "source": "Windows.Terminal.PowershellCore",
@@ -126,7 +126,7 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "opacity": 81,
-                "padding": "0",
+                "padding": "8",
                 "source": "Windows.Terminal.Azure"
             }
         ]
@@ -434,7 +434,7 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": false,
+    "showTerminalTitleInTitlebar": true,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
     "themes": [],
