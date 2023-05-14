@@ -20,6 +20,10 @@
             "keys": "ctrl+shift+f"
         },
         {
+            "command": "unbound",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,21 +31,18 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+v"
         }
     ],
     "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "disableAnimations": false,
+    "disableAnimations": true,
     "initialCols": 105,
     "initialPosition": "410,0",
     "initialRows": 32,
     "launchMode": "default",
+    "minimizeToNotificationArea": false,
     "profiles": 
     {
         "defaults": 
@@ -57,7 +58,7 @@
                 "weight": "normal"
             },
             "intenseTextStyle": "none",
-            "opacity": 81,
+            "opacity": 74,
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
@@ -69,7 +70,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 81,
+                "opacity": 74,
                 "padding": "8"
             },
             {
@@ -88,7 +89,7 @@
                 "hidden": false,
                 "intenseTextStyle": "none",
                 "name": "Command Prompt",
-                "opacity": 81,
+                "opacity": 74,
                 "padding": "8",
                 "scrollbarState": "hidden",
                 "suppressApplicationTitle": true,
@@ -96,9 +97,10 @@
                 "useAcrylic": true
             },
             {
-                "adjustIndistinguishableColors": "indexed",
+                "adjustIndistinguishableColors": "never",
                 "backgroundImage": null,
                 "backgroundImageOpacity": 0.81,
+                "closeOnExit": "always",
                 "colorScheme": "Nightly",
                 "cursorShape": "filledBox",
                 "elevate": false,
@@ -111,13 +113,14 @@
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "intenseTextStyle": "bright",
+                "intenseTextStyle": "none",
                 "name": "PowerShell",
                 "opacity": 74,
                 "padding": "8",
                 "scrollbarState": "hidden",
+                "snapOnInput": true,
                 "source": "Windows.Terminal.PowershellCore",
-                "suppressApplicationTitle": true,
+                "suppressApplicationTitle": false,
                 "useAcrylic": true
             },
             {
@@ -125,9 +128,23 @@
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
-                "opacity": 81,
+                "opacity": 74,
                 "padding": "8",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{6a1d953a-7f16-5f2c-944f-40d53d1e8f28}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "opacity": 74,
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{697f3eef-8412-5613-8351-c98f0459d92d}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "opacity": 74,
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -434,7 +451,7 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true,
+    "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
     "themes": [],
