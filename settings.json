@@ -48,6 +48,7 @@
         "defaults": 
         {
             "altGrAliasing": false,
+            "bellStyle": "none",
             "colorScheme": "Nightly",
             "cursorShape": "filledBox",
             "elevate": false,
@@ -65,6 +66,7 @@
         "list": 
         [
             {
+                "bellStyle": "none",
                 "colorScheme": "Nightly",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -76,6 +78,7 @@
             {
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
+                "bellStyle": "none",
                 "colorScheme": "Nightly",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": false,
@@ -100,6 +103,7 @@
                 "adjustIndistinguishableColors": "never",
                 "backgroundImage": null,
                 "backgroundImageOpacity": 0.81,
+                "bellStyle": "none",
                 "closeOnExit": "always",
                 "colorScheme": "Nightly",
                 "cursorShape": "filledBox",
@@ -124,6 +128,7 @@
                 "useAcrylic": true
             },
             {
+                "bellStyle": "none",
                 "colorScheme": "Nightly",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
@@ -131,20 +136,6 @@
                 "opacity": 74,
                 "padding": "8",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{6a1d953a-7f16-5f2c-944f-40d53d1e8f28}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "opacity": 74,
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{697f3eef-8412-5613-8351-c98f0459d92d}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "opacity": 74,
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -244,26 +235,26 @@
         },
         {
             "background": "#141B1E",
-            "black": "#262626",
-            "blue": "#87AFD7",
+            "black": "#0F1416",
+            "blue": "#67B0E8",
             "brightBlack": "#9E9E9E",
-            "brightBlue": "#87AFD7",
-            "brightCyan": "#6E6B6B",
-            "brightGreen": "#87AF87",
+            "brightBlue": "#71BAF2",
+            "brightCyan": "#96D988",
+            "brightGreen": "#96D988",
             "brightPurple": "#C678DD",
-            "brightRed": "#DB4B4B",
+            "brightRed": "#EF7E7E",
             "brightWhite": "#BBC2CF",
             "brightYellow": "#BCBCBC",
-            "cursorColor": "#6E6B6B",
-            "cyan": "#98BE65",
-            "foreground": "#D7D7D7",
+            "cursorColor": "#404749",
+            "cyan": "#8CCF7E",
+            "foreground": "#B3B9B8",
             "green": "#A9B1D6",
             "name": "Nightly",
             "purple": "#B16286",
-            "red": "#D75F5F",
-            "selectionBackground": "#767676",
+            "red": "#E57474",
+            "selectionBackground": "#242E32",
             "white": "#AAAAAA",
-            "yellow": "#A9B1D6"
+            "yellow": "#B3B9B8"
         },
         {
             "background": "#282C34",
