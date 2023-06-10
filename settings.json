@@ -43,6 +43,12 @@
     "initialRows": 32,
     "launchMode": "default",
     "minimizeToNotificationArea": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -59,9 +65,9 @@
                 "weight": "normal"
             },
             "intenseTextStyle": "none",
-            "opacity": 74,
+            "opacity": 100,
             "scrollbarState": "hidden",
-            "useAcrylic": true
+            "useAcrylic": false
         },
         "list": 
         [
@@ -76,7 +82,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 74,
+                "opacity": 100,
                 "padding": "8"
             },
             {
@@ -96,12 +102,12 @@
                 "hidden": false,
                 "intenseTextStyle": "none",
                 "name": "Command Prompt",
-                "opacity": 74,
+                "opacity": 100,
                 "padding": "8",
                 "scrollbarState": "hidden",
                 "suppressApplicationTitle": true,
                 "tabTitle": "cmd",
-                "useAcrylic": true
+                "useAcrylic": false
             },
             {
                 "adjustIndistinguishableColors": "never",
@@ -129,7 +135,7 @@
                 "snapOnInput": true,
                 "source": "Windows.Terminal.PowershellCore",
                 "suppressApplicationTitle": false,
-                "useAcrylic": true
+                "useAcrylic": false
             },
             {
                 "bellStyle": "none",
@@ -141,9 +147,10 @@
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
-                "opacity": 74,
+                "opacity": 100,
                 "padding": "8",
-                "source": "Windows.Terminal.Azure"
+                "source": "Windows.Terminal.Azure",
+                "useAcrylic": false
             }
         ]
     },
@@ -453,7 +460,51 @@
     "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
-    "themes": [],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
     "windowingBehavior": "useAnyExisting",
     "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
 }
