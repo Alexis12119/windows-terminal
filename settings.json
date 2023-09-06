@@ -55,7 +55,7 @@
         {
             "altGrAliasing": false,
             "bellStyle": "none",
-            "colorScheme": "Nightly",
+            "colorScheme": "One Dark",
             "cursorShape": "filledBox",
             "elevate": false,
             "font": 
@@ -89,7 +89,7 @@
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "bellStyle": "none",
-                "colorScheme": "Nightly",
+                "colorScheme": "One Dark",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -115,7 +115,7 @@
                 "backgroundImageOpacity": 0.81,
                 "bellStyle": "none",
                 "closeOnExit": "always",
-                "colorScheme": "Nightly",
+                "colorScheme": "One Dark",
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -129,13 +129,13 @@
                 "hidden": false,
                 "intenseTextStyle": "none",
                 "name": "PowerShell",
-                "opacity": 74,
+                "opacity": 100,
                 "padding": "8",
                 "scrollbarState": "hidden",
                 "snapOnInput": true,
                 "source": "Windows.Terminal.PowershellCore",
                 "suppressApplicationTitle": false,
-                "useAcrylic": false
+                "useAcrylic": true
             },
             {
                 "bellStyle": "none",
@@ -151,6 +151,15 @@
                 "padding": "8",
                 "source": "Windows.Terminal.Azure",
                 "useAcrylic": false
+            },
+            {
+                "colorScheme": "One Dark",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Arch",
+                "guid": "{b2563a79-0d75-43aa-a3fe-b99b89dc1435}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Arch Linux",
+                "startingDirectory": "~"
             }
         ]
     },
@@ -249,7 +258,7 @@
             "yellow": "#D79921"
         },
         {
-            "background": "#141B1E",
+            "background": "#14141E",
             "black": "#0F1416",
             "blue": "#67B0E8",
             "brightBlack": "#9E9E9E",
@@ -270,6 +279,29 @@
             "selectionBackground": "#242E32",
             "white": "#AAAAAA",
             "yellow": "#B3B9B8"
+        },
+        {
+            "background": "#1E2127",
+            "black": "#000000",
+            "blue": "#61AFEF",
+            "brightBlack": "#5C6370",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D19A66",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#5C6370",
+            "green": "#98C379",
+            "name": "One Dark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#ABB2BF",
+            "yellow": "#D19A66"
         },
         {
             "background": "#282C34",
@@ -316,6 +348,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#F9F9F9",
+            "black": "#000000",
+            "blue": "#4078F2",
+            "brightBlack": "#383A42",
+            "brightBlue": "#4078F2",
+            "brightCyan": "#0184BC",
+            "brightGreen": "#50A14F",
+            "brightPurple": "#A626A4",
+            "brightRed": "#E45649",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#986801",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#0184BC",
+            "foreground": "#383A42",
+            "green": "#50A14F",
+            "name": "One Light",
+            "purple": "#A626A4",
+            "red": "#E45649",
+            "selectionBackground": "#FFFFFF",
+            "white": "#A0A1A7",
+            "yellow": "#986801"
         },
         {
             "background": "#002B36",
