@@ -74,7 +74,7 @@
     "initialCols": 105,
     "initialPosition": "410,2",
     "initialRows": 32,
-    "launchMode": "default",
+    "launchMode": "focus",
     "minimizeToNotificationArea": false,
     "newTabMenu": 
     [
@@ -88,7 +88,7 @@
         {
             "altGrAliasing": false,
             "bellStyle": "none",
-            "colorScheme": "One Dark",
+            "colorScheme": "Catppuccin Mocha",
             "cursorShape": "filledBox",
             "elevate": false,
             "font": 
@@ -122,7 +122,7 @@
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "bellStyle": "none",
-                "colorScheme": "One Dark",
+                "colorScheme": "Catppuccin Mocha",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -148,7 +148,7 @@
                 "backgroundImageOpacity": 0.81,
                 "bellStyle": "none",
                 "closeOnExit": "always",
-                "colorScheme": "One Dark",
+                "colorScheme": "Catppuccin Mocha",
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -172,7 +172,7 @@
             },
             {
                 "bellStyle": "none",
-                "colorScheme": "Nightly",
+                "colorScheme": "Catppuccin Mocha",
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font"
@@ -186,7 +186,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "One Dark",
+                "colorScheme": "Catppuccin Mocha",
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Arch",
                 "guid": "{b2563a79-0d75-43aa-a3fe-b99b89dc1435}",
                 "hidden": false,
@@ -243,6 +243,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1D2D",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
         },
         {
             "background": "#282A36",
@@ -314,7 +337,7 @@
             "yellow": "#B3B9B8"
         },
         {
-            "background": "#1E1D2D",
+            "background": "#1E222A",
             "black": "#000000",
             "blue": "#61AFEF",
             "brightBlack": "#5C6370",
