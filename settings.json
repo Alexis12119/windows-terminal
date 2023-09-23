@@ -122,7 +122,7 @@
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "bellStyle": "none",
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "KanagawaWave",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -148,7 +148,7 @@
                 "backgroundImageOpacity": 0.81,
                 "bellStyle": "none",
                 "closeOnExit": "always",
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "KanagawaWave",
                 "cursorShape": "filledBox",
                 "elevate": false,
                 "experimental.retroTerminalEffect": false,
@@ -172,7 +172,7 @@
             },
             {
                 "bellStyle": "none",
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "KanagawaWave",
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font"
@@ -186,7 +186,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "KanagawaDragon",
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Arch",
                 "guid": "{b2563a79-0d75-43aa-a3fe-b99b89dc1435}",
                 "hidden": false,
@@ -312,6 +312,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#A89984",
             "yellow": "#D79921"
+        },
+        {
+            "background": "#181616",
+            "black": "#0D0C0C",
+            "blue": "#8BA4B0",
+            "brightBlack": "#A6A69C",
+            "brightBlue": "#7FB4CA",
+            "brightCyan": "#7AA89F",
+            "brightGreen": "#87A987",
+            "brightPurple": "#8992A7",
+            "brightRed": "#E46876",
+            "brightWhite": "#C5C9C5",
+            "brightYellow": "#E6C384",
+            "cursorColor": "#C5C9C5",
+            "cyan": "#8EA4A2",
+            "foreground": "#C8C093",
+            "green": "#8A9A7B",
+            "name": "KanagawaDragon",
+            "purple": "#A292A3",
+            "red": "#C4746E",
+            "selectionBackground": "#223249",
+            "white": "#C8C093",
+            "yellow": "#C4B28A"
+        },
+        {
+            "background": "#1F1F28",
+            "black": "#090618",
+            "blue": "#7E9CD8",
+            "brightBlack": "#727169",
+            "brightBlue": "#7FB4CA",
+            "brightCyan": "#7AA89F",
+            "brightGreen": "#98BB6C",
+            "brightPurple": "#938AA9",
+            "brightRed": "#E82424",
+            "brightWhite": "#DCD7BA",
+            "brightYellow": "#E6C384",
+            "cursorColor": "#C8C093",
+            "cyan": "#6A9589",
+            "foreground": "#DCD7BA",
+            "green": "#76946A",
+            "name": "KanagawaWave",
+            "purple": "#957FB8",
+            "red": "#C34043",
+            "selectionBackground": "#2D4F67",
+            "white": "#C8C093",
+            "yellow": "#C0A36E"
         },
         {
             "background": "#14141E",
