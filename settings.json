@@ -186,7 +186,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "KanagawaWave",
+                "colorScheme": "Catppuccin Mocha",
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Arch",
                 "guid": "{b2563a79-0d75-43aa-a3fe-b99b89dc1435}",
                 "hidden": false,
