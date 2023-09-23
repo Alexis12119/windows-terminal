@@ -106,7 +106,7 @@
         [
             {
                 "bellStyle": "none",
-                "colorScheme": "Nightly",
+                "colorScheme": "KanagawaWave",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
@@ -186,7 +186,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "KanagawaDragon",
+                "colorScheme": "KanagawaWave",
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Arch",
                 "guid": "{b2563a79-0d75-43aa-a3fe-b99b89dc1435}",
                 "hidden": false,
